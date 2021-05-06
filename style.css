@@ -1,0 +1,284 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+@font-face {
+    font-family: sahel;
+    font-weight: regular;
+    src: url(sahel.woff);
+}
+
+@font-face {
+    font-family: sahel;
+    font-weight: 700;
+    src: url(sahel-bold.woff);
+}
+
+body,
+html {
+    font: 16px/1.618 Sahel, Anonymous Pro;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    direction: rtl;
+}
+.container {
+    max-width: 43rem;
+    margin: 0 auto;
+    direction: rtl;
+}
+
+a {
+    color: #0048ab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: square;
+}
+
+code,
+pre {
+    font-family: Anonymous Pro;
+}
+
+code {
+    background-color: #f4f6f9 !important;
+    padding: 2px 5px;
+}
+
+pre {
+    direction: ltr !important;
+    line-height: 1.618 !important;
+}
+
+blockquote {
+    color: #666;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #ededed;
+    border-bottom: none;
+    margin: 2rem 0;
+}
+
+header nav {
+    margin: 2rem 0;
+    padding: 0 0 1rem;
+    border-bottom: 1px solid #ededed;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+header nav h1 {
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+header nav h1 a {
+    color: #000;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+header nav li {
+    margin: 0 0.5rem;
+}
+
+header nav a {
+    color: #000;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+header nav li {
+    margin: 0 0.5rem;
+}
+
+header nav a {
+    color: #56445d;
+}
+
+footer {
+    margin-top: 5rem;
+    padding: 0 0 3rem;
+}
+
+.article-list a {
+    color: #56445d;
+}
+
+.article-list article {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0.4rem;
+}
+
+.article-list time {
+    color: #aaabd3;
+    display: block;
+    margin-left: 1rem;
+    white-space: nowrap;
+}
+
+.article-list h3,
+.article-list h4 {
+    margin: 0;
+}
+
+.article .time, article .title {
+    margin: 0;
+}
+.article-list h3 {
+    margin-top: 2rem;
+}
+
+.article-list h3:after {
+    content: " ⌐";
+}
+
+.article-list h4 {
+    font-weight: 400;
+}
+
+.article time,
+.artile title {
+    margin: 0;
+}
+
+.article time {
+    color: #aaabd3;
+    font-weight: 400;
+}
+
+.article .content {
+    color: #222;
+    line-height: 1.8;
+}
+
+.article img {
+    max-width: 100%;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.pagination {
+    margin: 5rem 0 -3rem;
+}
+
+.pagination nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.pagination nav a.next {
+    text-align: left;
+}
+
+.pagination nav a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    text-align: left;
+    
+}
+
+.pagination nav a {
+    text-align: right;
+}
+
+.pagination a {
+    color: #56445d;
+    font-size: .9rem;
+}
+
+.pagination nav a i {
+    font-style: normal;
+    width: 1.5rem;
+}
+
+
+
+.pagination nav a span {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.pagination nav a.next i {
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+
+.delimiter {
+    border-top: 1px solid #ededed;
+}
+
+.delimiter .logo {
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color: #fff;
+}
+
+.delimiter .logo img {
+    display: block;
+    max-width: 100%;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6e7783;
+    padding: 1rem 0 0;
+}
+
+footer p a {
+    color: #3f454c;
+}
+
+@media (max-width: 44rem){
+    body,
+    html {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 43rem;
+        margin: 0 auto;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0 1rem 0 0;
+    }
+}
