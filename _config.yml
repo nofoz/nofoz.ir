@@ -5,7 +5,7 @@ description:         'نفوذ'
 url:                 https://nofoz.ir
 baseurl:             '/'
 paginate:            1
-permalink:           /:title/
+permalink:           /:title
 
 # About/contact
 author:
