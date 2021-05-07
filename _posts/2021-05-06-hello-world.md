@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hello world!
+title: سلام دنیا!
 ---
 
-hello world! hello world!
+سلام  دنیا! اولین پست نفوذ است.
