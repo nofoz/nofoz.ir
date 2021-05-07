@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<!-- Content -->
+<section id="content" class="container">
+    <article class="article article-type-index">
+        <h2 class="title">{{ page.title }}</h2>
+        <h4 class="time">
+            <time datetime="2017-05-13 17:57:54" itemprop="datePublished">{{ page.date | date_to_string }}</time>
+        </h4>
+        <section class="content">
+            {{ content }}
+        </section>
+    </article>
+</section>
+<!-- /Content -->
+
+{% if site.related_posts.size >= 1 %}
+<!-- Paging -->
+<section class="pagination">
+    <nav class="container">
+        
+        {% for post in site.related_posts limit:2 %}
+        <a class="extend prev" rel="prev" href="{{ site.baseurl }}{{ post.url }}">
+            <i>&lt;-</i>
+            <span>{{ post.title }}</span>
+        </a>
+        {% endfor %}
+        
+    </nav>
+</section>
+<!-- /Paging -->
+{% endif %}
