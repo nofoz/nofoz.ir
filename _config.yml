@@ -1,9 +1,9 @@
 # Setup
-title:               Nofoz
+title:               نفوذ
 tagline:             'مجله هک و امنیت'
 description:         'نفوذ'
 url:                 https://nofoz.ir
-baseurl:             ''
+baseurl:             '/'
 paginate:            1
 permalink:           pretty
 
