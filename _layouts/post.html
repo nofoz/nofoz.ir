@@ -1,19 +1,17 @@
 ---
 layout: default
 ---
-<!-- Content -->
-<section id="content" class="container">
-    <article class="article article-type-index">
-        <h2 class="title">{{ page.title }}</h2>
-        <h4 class="time">
-            <time datetime="2017-05-13 17:57:54" itemprop="datePublished">{{ page.date | date_to_string }}</time>
-        </h4>
-        <section class="content">
-            {{ content }}
-        </section>
-    </article>
-</section>
-<!-- /Content -->
+
+<article class="article">
+    <h2 class="title">{{ page.title }}</h2>
+    <h4 class="time">
+        <time datetime="2017-05-13 17:57:54" itemprop="datePublished">{{ page.date | date_to_string }}</time>
+    </h4>
+    <section class="content">
+        {{ content }}
+    </section>
+</article>
+
 
 {% if site.related_posts.size >= 1 %}
 <!-- Paging -->
