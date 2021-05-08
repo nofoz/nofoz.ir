@@ -82,6 +82,11 @@ header nav h1 a {
     color: #000;
 }
 
+header nav h1 span {
+    margin-right: 10px;
+    color: #aaabd3;
+}
+
 header nav ul {
     list-style: none;
     margin: 0;
