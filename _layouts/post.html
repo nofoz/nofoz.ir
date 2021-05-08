@@ -16,7 +16,7 @@ layout: default
 {% if site.related_posts.size >= 1 %}
 <!-- Paging -->
 <section class="pagination">
-    <nav class="container">
+    <nav>
         
         {% for post in site.related_posts limit:2 %}
         <a class="extend prev" rel="prev" href="{{ site.baseurl }}{{ post.url }}">
