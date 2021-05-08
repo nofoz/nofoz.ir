@@ -3,14 +3,12 @@ layout: default
 title: Home
 ---
 
-<section class="container article-list">
-    <h3>۱۴۰۰</h3>
-    {% for post in paginator.posts %}
-    <article>
-        <time>{{ post.date | date_to_string }}</time>
-        <h4>
-            <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-        </h4>
-    </article>
-    {% endfor %}
-</section>
+<h3>۱۴۰۰</h3>
+{% for post in paginator.posts %}
+<article>
+    <time>{{ post.date | date_to_string }}</time>
+    <h4>
+        <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+    </h4>
+</article>
+{% endfor %}
