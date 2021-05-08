@@ -18,9 +18,6 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    direction: rtl;
-}
-.container {
     max-width: 43rem;
     margin: 0 auto;
     direction: rtl;
@@ -250,11 +247,8 @@ footer p a {
     body,
     html {
         font-size: 14px;
-    }
-
-    .container {
         max-width: 43rem;
-        margin: 0 1rem;
+        margin: 0 .8rem;
     }
 
     ul {
