@@ -124,6 +124,7 @@ header nav a {
 footer {
     margin-top: 5rem;
     padding: 0 0 3rem;
+    border-top: 1px solid #ededed;
 }
 
 .article-list a {
@@ -151,6 +152,7 @@ footer {
 .article .time, article .title {
     margin: 0;
 }
+
 .article-list h3 {
     margin-top: 2rem;
 }
@@ -222,8 +224,6 @@ footer {
     width: 1.5rem;
 }
 
-
-
 .pagination nav a span {
     -ms-flex: 1;
     flex: 1;
@@ -232,26 +232,6 @@ footer {
 .pagination nav a.next i {
     -ms-flex-order: 1;
     order: 1;
-}
-
-
-.delimiter {
-    border-top: 1px solid #ededed;
-}
-
-.delimiter .logo {
-    transform: translateY(-50%);
-    width: 2rem;
-    height: 2rem;
-    display: block;
-    margin: 0 auto;
-    padding: 0 1rem;
-    background-color: #fff;
-}
-
-.delimiter .logo img {
-    display: block;
-    max-width: 100%;
 }
 
 footer p {
