@@ -3,13 +3,13 @@
 @font-face {
     font-family: sahel;
     font-weight: regular;
-    src: url(sahel.woff);
+    src: url(../fonts/sahel.woff);
 }
 
 @font-face {
     font-family: sahel;
     font-weight: 700;
-    src: url(sahel-bold.woff);
+    src: url(../fonts/sahel-bold.woff);
 }
 
 body,
