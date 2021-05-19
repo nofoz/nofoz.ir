@@ -24,7 +24,7 @@ html {
 }
 
 a {
-    color: #0048ab;
+    color: #06c;
     text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ blockquote {
 }
 
 hr {
-    border: 1px solid #ededed;
+    border: 1px solid #e6e6e6;
     border-bottom: none;
     margin: 2rem 0;
 }
@@ -65,7 +65,7 @@ hr {
 header nav {
     margin: 2rem 0;
     padding: 0 0 1rem;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid #e6e6e6;
     display: -ms-flexbox;
     display: flex;
 }
@@ -84,7 +84,7 @@ header nav h1 a {
 
 header nav h1 span {
     margin-right: 10px;
-    color: #aaabd3;
+    color: #949494;
 }
 
 header nav ul {
@@ -120,13 +120,13 @@ header nav li {
 }
 
 header nav a {
-    color: #56445d;
+    color: #1d1d1f;
 }
 
 footer {
     margin-top: 5rem;
     padding: 0 0 3rem;
-    border-top: 1px solid #ededed;
+    border-top: 1px solid #e6e6e6;
 }
 
 .article-list a {
@@ -140,7 +140,7 @@ footer {
 }
 
 .article-list time {
-    color: #aaabd3;
+    color: #949494;
     display: block;
     margin-left: 1rem;
     white-space: nowrap;
@@ -173,12 +173,12 @@ footer {
 }
 
 .article time {
-    color: #aaabd3;
+    color: #949494;
     font-weight: 400;
 }
 
 .article .content {
-    color: #222;
+    color: #1d1d1f;
     line-height: 1.8;
 }
 
